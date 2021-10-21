@@ -2,5 +2,5 @@
 # tasks file for k8s
 - name: generation the kubeadm.conf file
   template:
-    src: 10-kubeadm.conf.js
+    src: 10-kubeadm.conf.j2
     dest: /tmp/10-kubeadm.conf
