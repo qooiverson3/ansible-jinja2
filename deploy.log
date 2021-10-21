@@ -1,0 +1,36 @@
+2021-10-21 11:08:32,718 p=wesley_lai u=20788 | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2021-10-21 11:08:32,718 p=wesley_lai u=20788 | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2021-10-21 11:08:33,539 p=wesley_lai u=20788 | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead
+
+The error appears to be in '/Users/wesley_lai/Desktop/jinja2/main.yml': line 2, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+name: Jinja2 test
+^ here
+
+2021-10-21 11:08:56,478 p=wesley_lai u=20851 | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2021-10-21 11:08:56,478 p=wesley_lai u=20851 | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2021-10-21 11:08:57,164 p=wesley_lai u=20851 | playbook: main.yml
+2021-10-21 11:09:05,821 p=wesley_lai u=20885 | [WARNING]: Unable to parse /Users/wesley_lai/Desktop/jinja2/all as an inventory source
+
+2021-10-21 11:09:05,821 p=wesley_lai u=20885 | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2021-10-21 11:09:05,821 p=wesley_lai u=20885 | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2021-10-21 11:09:06,529 p=wesley_lai u=20885 | playbook: main.yml
+2021-10-21 11:09:43,097 p=wesley_lai u=20999 | [WARNING]: Unable to parse /Users/wesley_lai/Desktop/jinja2/localhost as an inventory source
+
+2021-10-21 11:09:43,097 p=wesley_lai u=20999 | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2021-10-21 11:09:43,097 p=wesley_lai u=20999 | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2021-10-21 11:09:43,794 p=wesley_lai u=20999 | playbook: main.yml
+2021-10-21 11:09:54,892 p=wesley_lai u=21023 | playbook: main.yml
+2021-10-21 12:21:29,870 p=wesley_lai u=22956 | playbook: main.yml
