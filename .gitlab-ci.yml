@@ -1,0 +1,13 @@
+stages:
+  - syntax-test
+
+Verify:Syntax:
+  stage: syntax-test
+  image: python:2.7
+  before_script:
+    - export=http_proxy=172.16.99.12:3128
+    - export=ftp_proxy=172.16.99.12:3128
+    - pip install ansible==2.9.0
+
+  script:
+    - ansible-playbook main.yml -i 'localhost,' --syntax-check
