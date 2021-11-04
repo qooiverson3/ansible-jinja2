@@ -4,5 +4,5 @@
   gather_facts: false
   tags: env
   roles:
-- { role: k8s }
+  - { role: k8s }
 
